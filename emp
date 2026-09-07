@@ -1,0 +1,8 @@
+employees = [
+    {"id": 101, "name": "Rahul", "salary": 30000},
+    {"id": 102, "name": "Aman", "salary": 35000},
+    {"id": 103, "name": "Priya", "salary": 40000}
+]
+
+for emp in employees:
+    print(f"ID: {emp['id']}, Name: {emp['name']}, Salary: ₹{emp['salary']}")
